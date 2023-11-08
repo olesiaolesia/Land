@@ -4,127 +4,193 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Land</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
-		<header>
-			<nav>
-				<!-- logo -->
-				<a href=""><img src="./img/logo/logo.svg" alt="" />Finance Ledger</a>
-
-				<ul>
-					<li><a href="">Home</a></li>
-					<li><a href="">About</a></li>
-					<li><a href="">Cases</a></li>
-					<li><a href="">Blog</a></li>
-					<li><a href="">Contact</a></li>
+		<header class="header">
+			<nav class="header-nav">
+				<!-- HEADER -->
+				<a class="logo-link link" href="./index.html"
+					><span class="accent">Finance</span>Ledger</a
+				>
+				<ul class="header-menu list">
+					<li class="header-menu-item">
+						<a class="header-menu-link link" href="">Home</a>
+					</li>
+					<li class="header-menu-item">
+						<a class="header-menu-link link" href="">About</a>
+					</li>
+					<li class="header-menu-item">
+						<a class="header-menu-link link" href="">Cases</a>
+					</li>
+					<li class="header-menu-item">
+						<a class="header-menu-link link" href="">Blog</a>
+					</li>
+					<li class="header-menu-item">
+						<a class="header-menu-link link" href="">Contact</a>
+					</li>
 				</ul>
 			</nav>
 		</header>
 		<main>
-			<!-- hero -->
-			<section>
-				<h1>The Sky Is The Limit</h1>
-				<p>We provide world class financial assistance</p>
-				<button type="button">Read More</button>
+			<!-- HERO -->
+			<section class="hero">
+				<h1 class="main-title">The Sky Is The Limit</h1>
+				<p class="hero-subtitle">We provide world class financial assistance</p>
+				<button class="modal-btn" type="button">Read More</button>
 			</section>
-			<!-- about -->
-			<section>
-				<h3>Investmant Banking</h3>
-				<p>
+			<!-- ABOUT -->
+			<section class="about">
+				<h2 class="visually-hidden">About</h2>
+				<h3 class="about-subtitle">Investmant Banking</h3>
+				<p class="about-description description">
 					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
 					necessitatibus!
 				</p>
-				<h3>Portfolio Manager</h3>
-				<p>
+				<h3 class="about-subtitle">Portfolio Manager</h3>
+				<p class="about-description description">
 					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
 					necessitatibus!
 				</p>
-				<h3>Tax & Custudio</h3>
-				<p>
+				<h3 class="about-subtitle">Tax & Custudio</h3>
+				<p class="about-description description">
 					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur,
 					necessitatibus!
 				</p>
 			</section>
-			<!-- solution -->
-			<section>
-				<img src="./img/solution/team.jpg" alt="Our team" width="680" height="460"/>
-				<p>What you are looking for</p>
-				<h2>We provide bespoke solutions</h2>
-				<p>
+			<!-- SOLUTION -->
+			<section class="solution">
+				<img src="./img/solution/team.jpg" alt="Our team" width="680" height="460" />
+				<p class="solution-suptitle suptitle">What you are looking for</p>
+				<h2 class="solution-title title">We provide bespoke solutions</h2>
+				<p class="solution-description description">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum
 					dignissimos quae laudantium asperiores nam aliquid impedit harum illum dolore
 					explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?
 				</p>
-				<button type="button">Read More</button>
+				<button class="modal-btn" type="button">Read More</button>
 			</section>
-			<!-- cases -->
-			<section>
-				<p>This is what we do</p>
-				<h2>Business Cases</h2>
-				<p>
+			<!-- CASES -->
+			<section class="cases">
+				<p class="cases-suptitle suptitle">This is what we do</p>
+				<h2 class="cases-title title">Business Cases</h2>
+				<p class="cases-description description">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!
 				</p>
-				<ul>
-					<li><img src="./img/cases/case-1.jpg" alt="team work" width="320" height="214" /></li>
-					<li><img src="./img/cases/case-2.jpg" alt="notes" width="320" height="214" /></li>
-					<li><img src="./img/cases/case-3.jpg" alt="team work" width="320" height="214" /></li>
-					<li><img src="./img/cases/case-4.jpg" alt="team work" width="320" height="214" /></li>
-					<li><img src="./img/cases/case-5.jpg" alt="working on laptop" width="320" height="214" /></li>
-					<li><img src="./img/cases/case-6.jpg" alt="building" width="320" height="214" /></li>
-					<li><img src="./img/cases/case-7.jpg" alt="employees" width="320" height="214" /></li>
-					<li><img src="./img/cases/case-8.jpg" alt="woman smiles" width="320" height="214" /></li>
+				<ul class="cases-list list">
+					<li class="cases-item">
+						<img src="./img/cases/case-1.jpg" alt="team work" width="320" height="214" />
+					</li>
+					<li class="cases-item">
+						<img src="./img/cases/case-2.jpg" alt="notes" width="320" height="214" />
+					</li>
+					<li class="cases-item">
+						<img src="./img/cases/case-3.jpg" alt="team work" width="320" height="214" />
+					</li>
+					<li class="cases-item">
+						<img src="./img/cases/case-4.jpg" alt="team work" width="320" height="214" />
+					</li>
+					<li class="cases-item">
+						<img
+							src="./img/cases/case-5.jpg"
+							alt="working on laptop"
+							width="320"
+							height="214"
+						/>
+					</li>
+					<li class="cases-item">
+						<img src="./img/cases/case-6.jpg" alt="building" width="320" height="214" />
+					</li>
+					<li class="cases-item">
+						<img src="./img/cases/case-7.jpg" alt="employees" width="320" height="214" />
+					</li>
+					<li class="cases-item">
+						<img
+							src="./img/cases/case-8.jpg"
+							alt="woman smiles"
+							width="320"
+							height="214"
+						/>
+					</li>
 				</ul>
 			</section>
-			<!-- blog -->
-			<section>
-				<p>April 16 2020</p>
-				<h2>Blog Post One</h2>
-				<p>
+			<!-- BLOG -->
+			<section class="blog">
+				<p class="blog-suptitile">April 16 2020</p>
+				<h2 class="blog-title title">Blog Post One</h2>
+				<p class="blog-description description">
 					Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate, ipsum
 					dignissimos quae laudantium asperiores nam aliquid impedit harum illum dolore
 					explicabo ab dolores itaque rerum temporibus doloribus iste maiores deleniti?
 				</p>
-				<button type="button">Read Our Blog</button>
-				<img src="./img/blog/blog.jpg" alt="notebook and coffee" width="680" height="517" />
+				<button class="modal-btn" type="button">Read Our Blog</button>
+				<img
+					src="./img/blog/blog.jpg"
+					alt="notebook and coffee"
+					width="680"
+					height="517"
+				/>
 			</section>
-			<!-- our team -->
-			<section>
-				<p>Who we are</p>
-				<h2>Our Professional Team</h2>
-				<p>
+			<!-- TEAM -->
+			<section class="team">
+				<p class="team-suptitle suptitle">Who we are</p>
+				<h2 class="team-titile">Our Professional Team</h2>
+				<p class="team-description description">
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, sapiente!
 				</p>
-				<ul>
-					<li>
-						<img src="./img/our-team/john-doe.jpg" alt="President John Doe" width="420" height="280" />
-						<h3>John Doe</h3>
-						<p>President</p>
+				<ul class="team-list list">
+					<li class="team-item">
+						<img
+							src="./img/team/john-doe.jpg"
+							alt="President John Doe"
+							width="420"
+							height="280"
+						/>
+						<h3 class="team-item-title">John Doe</h3>
+						<p class="team-item-text">President</p>
 					</li>
-					<li>
-						<img src="./img/our-team/jane-doe.jpg" alt="Vice President Jane Doe" width="428" height="286" />
-						<h3>Jane Doe</h3>
-						<p>Vice President</p>
+					<li class="team-item">
+						<img
+							src="./img/team/jane-doe.jpg"
+							alt="Vice President Jane Doe"
+							width="428"
+							height="286"
+						/>
+						<h3 class="team-item-title">Jane Doe</h3>
+						<p class="team-item-text">Vice President</p>
 					</li>
-					<li>
-						<img src="./img/our-team/steve-smith.jpg" alt="Marketing Head Steve Smith" width="420" height="280" />
-						<h3>Steve Smith</h3>
-						<p>Marketing Head</p>
+					<li class="team-item">
+						<img
+							src="./img/team/steve-smith.jpg"
+							alt="Marketing Head Steve Smith"
+							width="420"
+							height="280"
+						/>
+						<h3 class="team-item-title">Steve Smith</h3>
+						<p class="team-item-text">Marketing Head</p>
 					</li>
 				</ul>
 			</section>
-			<!-- form -->
+			<!-- FORM -->
 			<img src="./img/form/form.jpg" alt="working man" />
-			<h2>Request Callback</h2>
+			<h2 class="form-title title">Request Callback</h2>
 			<!-- form -->
 		</main>
-		<footer>
-			<ul>
-				<li>social network</li>
-				<li>social network</li>
-				<li>social network</li>
-				<li>social network</li>
+		<!-- FOOTER -->
+		<footer class="footer">
+			<ul class="soc-list list">
+				<li class="soc-list-item">social network</li>
+				<li class="soc-list-item">social network</li>
+				<li class="soc-list-item">social network</li>
+				<li class="soc-list-item">social network</li>
 			</ul>
-			<p>Copyright © 2021 - FinanceLedger</p>
+			<p class="footer-text">Copyright © 2021 - FinanceLedger</p>
 		</footer>
 	</body>
 </html>

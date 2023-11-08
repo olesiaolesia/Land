@@ -1,0 +1,191 @@
+:root {
+	--primary-font: "Open Sans", sans-serif;
+	--primary-text-color: #333;
+	--secondary-text-color: #fff;
+	--primary-bcd-color: #FFF;
+	
+}
+
+body {
+	font-family: var(--primary-font);
+	font-weight: 400;
+	background-color: skyblue;
+}
+
+
+/* ============ RESET ============  */
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+
+/* ============ COMPONENTS ============  */
+.modal-btn {
+	color: #fff;
+	background-color: #28a745;
+	font-size: 18px;
+	line-height: 1.55;
+	cursor: pointer;
+}
+
+.modal-btn:is(:hover, :focus) {
+	color: #28a745;
+	background-color: #fff;
+}
+
+.description {
+	font-size: 18px;
+	line-height: 1.56;
+}
+
+.suptitle {
+	font-size: 20px;
+	line-height: 1.6;
+}
+
+.title {
+	font-size: 38px;
+	font-weight: 300;
+	line-height: 1.26;
+}
+
+/* ============ HEADER ============  */
+.logo-link {
+	/* color: #fff; */
+	font-size: 35px;
+	line-height: 1.2;
+}
+
+.accent {
+	color: #28a745;
+}
+
+.header-menu-link {
+	color: var(--secondary-text-color);
+	font-size: 18px;
+	line-height: 1.55;
+}
+
+.header-menu-link:is(:hover, :focus) {
+	color: #28a745;
+}
+
+/* ============ HERO ============  */
+.main-title {
+	color: #e9e9e9;
+	font-size: 55px;
+	font-weight: 300;
+	line-height: 1.2;
+}
+
+.hero-subtitle {
+	color: #e9e9e9;
+	font-size: 22px;
+	line-height: 1.67;
+}
+
+/* ============ ABOUT ============  */
+.visually-hidden {
+	visibility: hidden;
+	pointer-events: none;
+	position: absolute;
+}
+
+.about-subtitle {
+	color: var(--primary-text-color);
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.6;
+}
+
+.about-description {
+	color: var(--primary-text-color);
+	
+}
+
+/* ============ SOLUTION ============  */
+.solution-suptitle {
+	color: var(--secondary-text-color);
+}
+
+.solution-title {
+	color: var(--secondary-text-color);
+}
+
+.solution-description {
+	color: var(--secondary-text-color);
+}
+
+/* ============ CASES ============  */
+.cases-suptitle {
+	color: var(--primary-text-color);
+}
+
+.cases-title {
+	color: var(--primary-text-color);
+}
+
+.cases-description {
+	color: var(--primary-text-color);
+}
+
+/* ============ BLOG ============  */
+.blog-suptitile {
+	color: var(--secondary-text-color);
+	font-size: 20px;
+	line-height: 1.6;
+}
+
+.blog-title {
+	color: var(--secondary-text-color);
+}
+
+.blog-description {
+	color: var(--secondary-text-color);
+}
+
+/* ============ TEAM ============  */
+.team-suptitle {
+	color: var(--primary-text-color);
+}
+
+.team-titile {
+	color: var(--primary-text-color);
+	font-size: 38px;
+	font-weight: 300;
+	line-height: 1.26;
+}
+
+.team-description {
+	color: var(--primary-text-color);
+}
+
+.team-item-title {
+	color: var(--primary-text-color);
+	font-size: 25px;
+	font-weight: 400;
+	line-height: 1.24;
+}
+
+.team-item-text {
+	color: var(--primary-text-color);
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+/* ============ FORM ============  */
+.form-title {
+	color: var(--primary-text-color);
+}
+
+/* ============ FOOTER ============  */
+.footer-text {
+	color: var(--secondary-text-color);
+	font-size: 18px;
+	line-height: 1.5;
+}
